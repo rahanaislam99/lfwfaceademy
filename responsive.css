@@ -1,0 +1,327 @@
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+	.mid-content {
+    max-width: 1200px;
+}
+.mobile-menu-check {
+	opacity: 0;
+	visibility: hidden;
+}
+}
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.mid-content {
+    max-width: 1200px;
+}
+.header-logo img {
+    margin-left: 30px;
+}
+.header-section {
+	position: inherit;
+}
+.banner-section {
+	margin-top: 0px;
+}
+.video-content-right h3 {
+	font-size: 30px;
+}
+.video-content-right p {
+	margin-top: 20px;
+}	
+.p-content ul li {
+	padding: 15px 0px;
+	font-size: 18px;
+}
+.blog-title {
+	padding-left: 20px;
+}
+.blog-items {
+	padding: 10px;
+}
+.contact-right-form {
+	width: 48%;
+	padding: 0px 20px;
+}
+.sbmt {
+	padding:0;
+}
+.mobile-menu-check {
+	opacity: 0;
+	visibility: hidden;
+}
+
+}
+
+/* main css */
+.primary-menu span{
+	display: none;
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.header-logo {
+    width: 100%;
+    text-align: center;
+}
+.header-logo img {
+    float: inherit;
+}
+.logo span {
+    top: -20px;
+    position: relative;
+}
+
+.header-menu {
+	width: 100%;
+}
+.header-button {
+	width: 150px;
+	position: absolute;
+	text-align: right;
+	right: 0;
+	margin-top: 60px;
+}
+.primary-menu span {
+	font-size: 30px;
+	color: #6278DF;
+	cursor: pointer;
+	margin-left: 30px;
+	display: block;
+}
+.video-left {
+	width: 100%;
+}
+.video-content-right {
+	width: 100%;
+	margin-top: 20px;
+}
+.video-content-right p {
+	margin-left: 20px;
+}
+.video-content-right h3 {
+	margin-left: 20px;
+}
+.service-box {
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.service-content p {
+	font-size: 17px;
+}
+.pricing-item {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10px;
+}
+.member {
+	width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 15px;
+}
+.blog-section {
+	padding: 50px 0;
+}
+.blog-post-item {
+	margin-right: 0;
+}
+.blog-heading {
+	width: 100%;
+	text-align: center;
+	margin-top: -40px;
+}
+.blog-content {
+	width: 80%;
+	text-align: center;
+	float: inherit;
+	margin: 10px auto;
+}
+.blog-post-item {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.blog-post-item img {
+	width: 40%;
+}
+.blog-post-content {
+	width: 60%;
+}
+.contact-section {
+	padding: 50px 0;
+}
+.contact-left-map {
+	width: 100%;
+}
+.contact-right-form {
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.contact-form {
+	padding: 20px;
+}
+.t-item {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* responsive */
+
+.primary-menu ul {
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+}
+.primary-menu .mobile-menu-check:checked ~ ul{
+	opacity: 1;
+	visibility: visible;
+	height: 100%;
+}
+.primary-menu ul li {
+	position: relative;
+	display: block;
+}
+.primary-menu span {
+	position: absolute;
+	top: 50px;
+	pointer-events: none;
+}
+.mobile-menu-check {
+	margin-left: 35px;
+	opacity: 0;
+	cursor: pointer;
+}
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.banner-content h2 {
+	font-size: 45px;
+}
+.default-btn {
+	padding: 6px 4px;
+	font-size: 16px;
+}
+.header-section {
+	padding: 6px 0px;
+	position: inherit;
+}
+.banner-section {
+	padding: 50px 0px;
+	margin-top: 0px;
+}
+.service-section {
+	padding: 40px 0px;
+}
+.section-title p {
+	padding-bottom: 0px;
+}
+.section-title h1 {
+	font-weight: 400;
+}
+.service-box {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.section-title h2 {
+	font-size: 35px;
+}
+.pricing-tables {
+	margin-top: 30px;
+}
+.section-title p {
+	font-size: 20px;
+}
+.team-section h2 {
+	font-size: 25px;
+}
+.testimonial-section {
+	padding: 50px 0;
+}
+.testimonial-section h2{
+	font-size: 25px;
+}
+.testimonial-items {
+	margin-top: 40px;
+}
+.t-item {
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 15px;
+}
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.banner-content h2 {
+	font-size: 30px;
+}
+.banner-content h3 {
+	font-size: 20px;
+}
+.section-title h1 {
+	font-size: 40px;
+}
+.member {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.team-members {
+	padding: 10px 0px;
+}
+.newsletter-title h2 {
+	font-size: 25px;
+}
+.newsletter-title p {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.newsletter-form input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.submit-btn{
+	width: 100%;
+	margin-left: 0;
+}
+.blog-post-item {
+	margin-right: 0;
+}
+.blog-post-item img {
+	width: 100%;
+	float: inherit;
+	border-radius: 10px;
+	border-radius: 0;
+}
+.blog-heading h2 {
+	font-size: 30px;	
+}
+.blog-post-content {
+	width: 100%;
+	float: inherit;
+}
+.blog-content p {
+	font-size: 17px;
+	margin-top: 20px;
+}
+iframe {
+	height: 300px;
+}
+}
+
+
+
+
+
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
